@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Butterfly Bootstrap Template - Index</title>
+  <title>Cervejaria BC</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -47,10 +47,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">INÍCIO</a></li>
+          <li><a class="nav-link scrollto" href="#about">SOBRE NÓS</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">PRODUTOS</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -69,7 +69,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">CONTATO</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -134,7 +134,7 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Clients Section ======= -->
+    <!-- ======= SEÇÃO DE CLIENTES ======= -->
     <section id="clients" class="clients">
       <div class="container">
 
@@ -191,9 +191,9 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section><!-- FIM DA SEÇÃO DE CLIENTES -->
 
-    <!-- ======= Portfolio Section ======= -->
+    <!-- ======= SEÇÃO DE PRODUTOS ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
 
@@ -344,9 +344,9 @@
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- FIM DA SEÇÃO DE PRODUTOS -->
 
-    <!-- ======= Testimonials Section ======= -->
+    <!-- ======= SEÇÃO DE OPINIÕES DE CLIENTES ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container position-relative">
 
@@ -356,28 +356,28 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Zeca Sambinha</h3>
+                <h4>Garoto Propaganda</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  A cerveja da BC é tudo de bom! Geladinha e com aquele sabor que a gente gosta. Não tem nada melhor do que uma cerveja gelada para acompanhar um samba. O sabor é incrível, com um equilíbrio perfeito entre o amargor e o dulçor. Não tem como errar com a BC.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- fim da opinião 1 -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Péricles Emo</h3>
+                <h4>Cantor</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  A BC é uma cervejaria de primeira qualidade. As cervejas são cuidadosamente elaboradas e sempre surpreendem, com sabores intensos e equilibrados. Sou particularmente fã da IPA da BC, que tem um amargor agradável e aromas frutados. Recomendo muito!
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- fim da opinião 2 -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -386,11 +386,11 @@
                 <h4>Store Owner</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  Sou fã da BC há anos e nunca me decepcionei com suas cervejas. A qualidade é sempre alta e o sabor é único, com notas complexas e bem equilibradas. A stout da BC é uma das minhas favoritas, com um sabor intenso de café e chocolate.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- fim da opinião 3 -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -399,11 +399,11 @@
                 <h4>Freelancer</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Quando visito Contagem/MG, sempre faço questão de passar na BC. As cervejas artesanais são incríveis e o ambiente descontraído do brewpub é muito convidativo. Adoro experimentar novos estilos e sabores de cerveja e a BC nunca me decepciona nesse quesito.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- fim da opinião 4 -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -412,18 +412,18 @@
                 <h4>Entrepreneur</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  A BC é minha cervejaria favorita! As cervejas são sempre consistentes e saborosas, e a variedade de estilos é excelente. Além disso, o rótulo criativo das garrafas é um detalhe que sempre chama a atenção.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- fim da opinião 5 -->
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- FIM DA SEÇÃO DE OPINIÕES DE CLIENTES -->
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
