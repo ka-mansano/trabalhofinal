@@ -77,7 +77,7 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
+  <!-- ======= SEÇÃO DO INÍCIO ======= -->
   <section id="hero" class="d-flex align-items-center">
 
     <div class="container">
@@ -85,7 +85,7 @@
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1>INICIO</h1>
           <h2>TEXTO DE INICIO</h2>
-          <div><a href="#about" class="btn-get-started scrollto">Get Started</a></div>
+          <div><a href="#about" class="btn-get-started scrollto">Começar</a></div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
           <img src="assets/img/hero-img.png" class="img-fluid" alt="">
@@ -93,11 +93,11 @@
       </div>
     </div>
 
-  </section><!-- End Hero -->
+  </section><!-- FIM DA SEÇÃO DO INÍCIO -->
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
+    <!-- ======= SEÇÃO DO SOBRE NÓS ======= -->
     <section id="about" class="about">
       <div class="container">
 
@@ -107,7 +107,7 @@
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <h3>SOBRE NOS</h3>
+            <h3>SOBRE NÓS</h3>
             <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
 
             <div class="icon-box">
@@ -132,7 +132,7 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- SEÇÃO DO SOBRE NÓS -->
 
     <!-- ======= SEÇÃO DE CLIENTES ======= -->
     <section id="clients" class="clients">
@@ -425,7 +425,7 @@
       </div>
     </section><!-- FIM DA SEÇÃO DE OPINIÕES DE CLIENTES -->
 
-    <!-- ======= Gallery Section ======= -->
+    <!-- ======= SEÇÃO DA GALERIA / FOTOS DA PRODUÇÃO ======= -->
     <section id="gallery" class="gallery">
       <div class="container">
 
@@ -503,19 +503,15 @@
         </div>
 
       </div>
-    </section><!-- End Gallery Section -->
+    </section><!-- FIM DA SEÇÃO DA GALERIA / FOTOS DA PRODUÇÃO -->
 
-    <!-- ======= Contact Section ======= -->
+    <!-- ======= SEÇÃO DE CONTATO ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
           <h2>CONTATO</h2>
-          <p>INFORMAÇÕES SOBRE NOSSOS CONTATOS</p>
-        </div>
-
-        <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+          <p>Olá! Gostaríamos de ouvir você. Se você tiver alguma dúvida, comentário ou feedback, por favor, entre em contato conosco através do formulário abaixo. Nossa equipe terá prazer em responder o mais breve possível. Obrigado pelo seu interesse!</p>
         </div>
 
         <div class="row mt-5">
@@ -524,20 +520,20 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>Localização:</h4>
+                <p>Contagem, MG, Brasil </p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>contato@cervejariabc.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>Telefone:</h4>
+                <p>(XX) XXXX-XXXX</p>
               </div>
 
             </div>
@@ -549,24 +545,24 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu E-mail" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Sua mensagem foi encaminhada. Obrigada!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
             </form>
 
           </div>
@@ -574,80 +570,7 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>CADASTRO</h2>
-          <p>CADASTRE-SE AQUI</p>
-        </div>
-
-        <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-
+    </section><!-- FIM DA SEÇÃO DE CONTATO -->
 
   </main><!-- End #main -->
 
@@ -658,10 +581,10 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Receba nossas novidades</h4>
+            <p>Cadastre seu endereço de e-mail para receber em primeira mão atualizações e novidades sobre nossos produtos, assim como nosso catálogo sempre atualizado.</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="Inscreva-se">
             </form>
           </div>
         </div>
@@ -673,21 +596,21 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Butterfly</h3>
+            <h3>Cervejaria BC</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Rua Imaginária, nº 1.234<br>
+              Contagem - MG<br>
+              Brasil <br><br>
+              <strong>Telefone:</strong> (XX) XXXX-XXXX <br>
+              <strong>E-mail:</strong> contato@cervejariabc.com<br>
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Links Úteis</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Início</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sobre Nós</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
@@ -706,7 +629,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
+            <h4>Nossas redes sociais</h4>
             <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -749,5 +672,4 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
