@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Butterfly Bootstrap Template</title>
+  <title>Produtos - Detalhes</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -84,10 +84,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfolio Details</h2>
+          <h2>Produtos - Detalhes</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Portfolio Details</li>
+            <li><a href="index.html">Início</a></li>
+            <li>Produtos - Detalhes</li>
           </ol>
         </div>
 
@@ -123,18 +123,16 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>Informações do Produto</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Nome</strong>: Alpinista</li>
+                <li><strong>Estilo</strong>: Quadruppel</li>
+                <li><strong>Premiação:</strong>: Ouro - Breja Awards 2021</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              <h2>Detalhes do estilo</h2>
+              <p>O estilo Quadrupel de cerveja é originário da Bélgica e é conhecido por suas cervejas escuras e fortes, com alto teor alcoólico e sabor complexo. Essa cerveja é produzida com quatro vezes a quantidade de malte utilizada na produção de uma cerveja padrão, o que lhe confere um sabor rico em notas maltadas, de frutas secas, caramelo, chocolate e especiarias, além de um corpo robusto e um final de boca suave e quente.<br/>IBU: 29 <br/> ABV: 9,1%
               </p>
             </div>
           </div>
@@ -153,10 +151,10 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Receba nossas novidades</h4>
+            <p>Cadastre seu endereço de e-mail para receber em primeira mão atualizações e novidades sobre nossos produtos, assim como nosso catálogo sempre atualizado.</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="Inscreva-se">
             </form>
           </div>
         </div>
@@ -168,21 +166,21 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Butterfly</h3>
+            <h3>Cervejaria BC</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Rua Imaginária, nº 1.234<br>
+              Contagem - MG<br>
+              Brasil <br><br>
+              <strong>Telefone:</strong> (XX) XXXX-XXXX <br>
+              <strong>E-mail:</strong> contato@cervejariabc.com<br>
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Links Úteis</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Início</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sobre Nós</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
@@ -201,7 +199,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
+            <h4>Nossas redes sociais</h4>
             <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
