@@ -1,10 +1,3 @@
-/**
-* Template Name: Butterfly
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/butterfly-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -150,23 +143,23 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
+    let produtosContainer = select('.produtos-container');
+    if (produtosContainer) {
+      let produtosIsotope = new Isotope(produtosContainer, {
+        itemSelector: '.produtos-item',
         layoutMode: 'fitRows'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      let produtosFilters = select('#produtos-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#produtos-flters li', function(e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        produtosFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        portfolioIsotope.arrange({
+        produtosIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
 
@@ -175,17 +168,13 @@
 
   });
 
-  /**
-   * Initiate portfolio lightbox 
-   */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+  /** Initiate produtos lightbox **/
+  const produtosLightbox = GLightbox({
+    selector: '.produtos-lightbox'
   });
 
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
+  /**  PRODUTOS - DETALHES **/
+  new Swiper('.produtos-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
@@ -199,10 +188,8 @@
     }
   });
 
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
+  /** FEEDBACK **/
+  new Swiper('.feedback-slider', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -217,11 +204,9 @@
     }
   });
 
-  /**
-   * Initiate galleery lightbox 
-   */
-  const galleeryLightbox = GLightbox({
-    selector: '.galleery-lightbox'
+  /** GALERIA **/
+  const galeriaLightbox = GLightbox({
+    selector: '.galeria-lightbox'
   });
 
   /**
