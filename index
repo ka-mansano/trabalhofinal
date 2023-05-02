@@ -185,7 +185,7 @@
                 <h4>Alpinista</h4>
                 <p>Quadruppel</p>
                 <div class="produtos-links">
-                  <a href="produtos.html" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
+                  <a href="produtos.html#alpinista" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -195,10 +195,10 @@
             <div class="produtos-wrap">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
               <div class="produtos-info">
-                <h4>Queda Livre</h4>
-                <p>IPA</p>
+                <h4>Bergamota Selvagem</h4>
+                <p>Catharina Sour</p>
                 <div class="produtos-links">
-                  <a href="produtos.html" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
+                  <a href="produtos.html#bergamota" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -208,10 +208,10 @@
             <div class="produtos-wrap">
               <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
               <div class="produtos-info">
-                <h4>Goiaba Madura</h4>
-                <p>Fruit Beer</p>
+                <h4>Caminhada na Praia</h4>
+                <p>Pilsen</p>
                 <div class="produtos-links">
-                  <a href="produtos.html" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
+                  <a href="produtos.html#caminhada" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -221,10 +221,10 @@
             <div class="produtos-wrap">
               <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
               <div class="produtos-info">
-                <h4>Flor de Ipê</h4>
-                <p>Red Ale</p>
+                <h4>Descida Radical</h4>
+                <p>APA</p>
                 <div class="produtos-links">
-                  <a href="produtos.html" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
+                  <a href="produtos.html#descida" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -234,10 +234,10 @@
             <div class="produtos-wrap">
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="produtos-info">
-                <h4>Montanha Negra</h4>
-                <p>Stout</p>
+                <h4>Flor de Ipê</h4>
+                <p>Red Ale</p>
                 <div class="produtos-links">
-                  <a href="produtos.html" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
+                  <a href="produtos.html#flor" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -247,10 +247,10 @@
             <div class="produtos-wrap">
               <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
               <div class="produtos-info">
-                <h4>Pôr do Sol</h4>
-                <p>Oktoberfest</p>
+                <h4>Goiaba Madura</h4>
+                <p>Fruit Beer</p>
                 <div class="produtos-links">
-                  <a href="produtos.html" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
+                  <a href="produtos.html#goiaba" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -260,10 +260,10 @@
             <div class="produtos-wrap">
               <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
               <div class="produtos-info">
-                <h4>Descida Radical</h4>
-                <p>APA</p>
+                <h4>Montanha Negra</h4>
+                <p>Stout</p>
                 <div class="produtos-links">
-                  <a href="produtos.html" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
+                  <a href="produtos.html#montanha" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -273,36 +273,36 @@
             <div class="produtos-wrap">
               <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
               <div class="produtos-info">
+                <h4>Pôr do Sol</h4>
+                <p>Oktoberfest</p>
+                <div class="produtos-links">
+                  <a href="produtos.html#por" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 produtos-item filter-web">
+            <div class="produtos-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="produtos-info">
+                <h4>Queda-Livre</h4>
+                <p>IPA</p>
+                <div class="produtos-links">
+                  <a href="produtos.html#queda" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 produtos-item filter-web">
+            <div class="produtos-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="produtos-info">
                 <h4>Trilha Aventureira</h4>
                 <p>Bock</p>
                 <div class="produtos-links">
-                  <a href="produtos.html" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 produtos-item filter-web">
-            <div class="produtos-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="produtos-info">
-                <h4>Caminhada na Praia</h4>
-                <p>Pilsen</p>
-                <div class="produtos-links">
-                  <a href="produtos.html" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 produtos-item filter-web">
-            <div class="produtos-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="produtos-info">
-                <h4>Bergamota Selvagem</h4>
-                <p>Catharina Sour</p>
-                <div class="produtos-links">
-                  <a href="produtos.html" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
+                  <a href="produtos.html#trilha" target="_blank" title="Mais Detalhes"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
