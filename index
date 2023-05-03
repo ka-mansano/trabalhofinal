@@ -478,7 +478,7 @@
 
         <div class="section-title">
           <h2>CONTATO</h2>
-          <p>Olá! Gostaríamos de ouvir você. Se você tiver alguma dúvida, comentário ou feedback, por favor, entre em contato conosco através do formulário abaixo. Nossa equipe terá prazer em responder o mais breve possível. Obrigado pelo seu interesse!</p>
+          <p>Para solicitar um orçamento ou enviar seu feedback, por favor, entre em contato conosco através deste formulário. <br/> Agradecemos desde já pelo seu interesse e aguardamos seu contato.</p>
         </div>
 
         <div class="row mt-5">
@@ -596,11 +596,9 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Nossas redes sociais</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <h4>Siga nossas redes sociais</h4>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
               <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
