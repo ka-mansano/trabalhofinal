@@ -806,7 +806,7 @@ section {
 /*--- FEEDBACK ---*/
 .feedback {
   padding: 80px 0;
-  background: url("../img/cta-bg.jpg") no-repeat;
+  background: url("../img/malte.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -819,7 +819,6 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(11, 41, 55, 0.9);
 }
 
 .feedback .section-header {
@@ -851,7 +850,7 @@ section {
 }
 
 .feedback .feedback-item h4 {
-  font-size: 14px;
+  font-size: 15px;
   color: #ddd;
   margin: 0 0 15px 0;
 }
@@ -860,6 +859,7 @@ section {
 .feedback .feedback-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.4);
   font-size: 26px;
+
 }
 
 .feedback .feedback-item .quote-icon-left {
@@ -878,7 +878,8 @@ section {
 .feedback .feedback-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
-  color: #eee;
+  color: #eeeeee;
+  background-color: rgba(68,48,46, 0.621);
 }
 
 .feedback .swiper-pagination {
@@ -890,11 +891,11 @@ section {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgb(208,212,102, 0.8);
 }
 
 .feedback .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #49b5e7;
+  background-color: rgb(114, 148, 21);
 }
 
 @media (min-width: 992px) {
