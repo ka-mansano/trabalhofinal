@@ -313,7 +313,7 @@
       </div>
     </section><!-- FIM DA SEÇÃO DE PRODUTOS -->
 
-    <!-- ======= SEÇÃO DE OPINIÕES DE CLIENTES ======= -->
+    <!-- ======= SEÇÃO DE FEEDBACKS ======= -->
     <section id="feedback" class="feedback">
       <div class="container position-relative">
 
@@ -390,7 +390,7 @@
         </div>
 
       </div>
-    </section><!-- FIM DA SEÇÃO DE OPINIÕES DE CLIENTES -->
+    </section><!-- FIM DA SEÇÃO DE FEEDBACKS -->
 
     <!-- ======= SEÇÃO DA GALERIA / FOTOS DA PRODUÇÃO ======= -->
     <section id="galeria" class="galeria">
@@ -398,71 +398,71 @@
 
         <div class="section-title">
           <h2>GALERIA</h2>
-          <p>SELEÇÃO DE BELISSIMAS FOTOS DA NOSSA PRODUÇÃO</p>
+          <p>CONFIRA O PASSO A PASSO DE NOSSA PRODUÇÃO ATRAVÉS DAS FOTOS ABAIXO</p>
         </div>
 
         <div class="row no-gutters">
 
           <div class="col-lg-3 col-md-4">
             <div class="galeria-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="galeria-lightbox" data-gallery="galeria-item">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              <a href="../butterfly/assets/img/gallery/moagem.jpg" class="galeria-lightbox" data-gallery="galeria-item">
+                <img src="assets/img/gallery/moagem.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="galeria-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="galeria-lightbox" data-gallery="galeria-item">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/brassagem.jpg" class="galeria-lightbox" data-gallery="galeria-item">
+                <img src="assets/img/gallery/brassagem.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="galeria-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="galeria-lightbox" data-gallery="galeria-item">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/fervura.jpg" class="galeria-lightbox" data-gallery="galeria-item">
+                <img src="assets/img/gallery/fervura.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="galeria-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="galeria-lightbox" data-gallery="galeria-item">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/addlupulo.jpg" class="galeria-lightbox" data-gallery="galeria-item">
+                <img src="assets/img/gallery/addlupulo.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="galeria-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="galeria-lightbox" data-gallery="galeria-item">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/ferment" class="galeria-lightbox" data-gallery="galeria-item">
+                <img src="assets/img/gallery/ferment" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="galeria-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="galeria-lightbox" data-gallery="galeria-item">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/fermentador.jpg" class="galeria-lightbox" data-gallery="galeria-item">
+                <img src="assets/img/gallery/fermentador.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="galeria-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="galeria-lightbox" data-gallery="galeria-item">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/envase.jpg" class="galeria-lightbox" data-gallery="galeria-item">
+                <img src="assets/img/gallery/envase.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="galeria-item">
-              <a href="assets/img/gallery/gallery-8.jpg" class="galeria-lightbox" data-gallery="galeria-item">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/prodfinal.jpg" class="galeria-lightbox" data-gallery="galeria-item">
+                <img src="assets/img/gallery/prodfinal.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
