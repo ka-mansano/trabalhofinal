@@ -1,26 +1,19 @@
 /*--- GERAL ---*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(60,9,8);
+  background-image: url('../img/mad.jpg');
+  background-size: contain ;
 }
 
 a {
   text-decoration: none;
-  color: #49b5e7;
+  color: rgb(60,87,18);
 }
 
 a:hover {
-  color: #76c7ed;
+  color: rgb(208,212,102);
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Dosis", sans-serif;
 }
 
 /*--- botão de voltar pra cima ---*/
@@ -31,7 +24,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #49b5e7;
+  background: #FFB74E;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -40,13 +33,12 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #020202;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #6dc4ec;
-  color: #fff;
+  background: #FFEE58;
 }
 
 .back-to-top.active {
@@ -56,7 +48,7 @@ h6 {
 
 /** HEADER **/
 #header {
-  background: #fff;
+  background: #fdfdf1;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -71,11 +63,6 @@ h6 {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Lato", sans-serif;
-}
-
-#header .logo a {
-  color: #0f394c;
 }
 
 #header .logo img {
@@ -106,7 +93,6 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Dosis", sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: #0f394c;
@@ -305,7 +291,7 @@ h6 {
 #inicio {
   width: 100%;
   height: 80vh;
-  background: #f9f9f9;
+  background: #fdfdf1;
 }
 
 #inicio .container {
@@ -328,7 +314,6 @@ h6 {
 }
 
 #inicio .btn-get-started {
-  font-family: "Dosis", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -401,7 +386,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--- sobre ---*/
+/*--- sobre nós ---*/
 .sobre .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
@@ -825,8 +810,7 @@ section {
   margin-bottom: 40px;
 }
 
-.feedback .feedback-carousel,
-.feedback .feedback-slider {
+.feedback .feedback-carousel, .feedback .feedback-slider {
   overflow: hidden;
 }
 
@@ -855,8 +839,7 @@ section {
   margin: 0 0 15px 0;
 }
 
-.feedback .feedback-item .quote-icon-left,
-.feedback .feedback-item .quote-icon-right {
+.feedback .feedback-item .quote-icon-left, .feedback .feedback-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.4);
   font-size: 26px;
 
@@ -912,6 +895,8 @@ section {
 }
 
 .galeria .galeria-item img {
+  width: 300px;
+  height: 200px;
   transition: all ease-in-out 0.4s;
 }
 
@@ -1071,7 +1056,6 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
 }
 
 .breadcrumbs ol {
@@ -1190,7 +1174,6 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Lato", sans-serif;
   color: #777777;
 }
 
