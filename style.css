@@ -52,7 +52,7 @@ a:hover {
 
 /** HEADER **/
 #header {
-  background: #FFD700;
+  background:  #ffd900;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -98,7 +98,7 @@ a:hover {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
-  color: #0f394c;
+  color: #491601;
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
-  color: #49b5e7;
+  color: #CE3911;
 }
 
 .navbar .dropdown ul {
@@ -437,6 +437,19 @@ section {
   font-size: 14px;
 }
 
+.about .video-box {
+  background: url("../img/about.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+@media (min-width: 1200px) {
+  .about .video-box {
+    margin-left: 15px;
+    margin-right: -15px;
+  }
+}
+
 .sobre .play-btn {
   width: 94px;
   height: 94px;
@@ -531,11 +544,12 @@ section {
   border-bottom: 1px solid #eee;
   overflow: hidden;
   background: #fff;
-  height: 120px;
+  height: 200px;
+  width: 270px;
 }
 
 .clients .client-logo img {
-  height: 50%;
+
   filter: grayscale(100%);
   transition: 0.3s;
 }
@@ -708,25 +722,8 @@ section {
   padding-top: 40px;
 }
 
-.produtos-details .produtos-details-slider img {
+.produtos-details img {
   width: 100%;
-}
-
-.produtos-details .produtos-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.produtos-details .produtos-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #49b5e7;
-}
-
-.produtos-details .produtos-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #49b5e7;
 }
 
 .produtos-details .produtos-info {
@@ -1022,7 +1019,7 @@ section {
 /*--- BREADCRUMBS ---*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f0f9fd;
+  background: #F5F5DC;
   margin-top: 84px;
 }
 
@@ -1043,7 +1040,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .breadcrumbs ol li+li {
@@ -1053,11 +1050,11 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #175977;
+  color: #490147;
   content: "/";
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /*essa parte aqui deixa o trem responsivo*/
   .breadcrumbs .d-flex {
     display: block !important;
   }
@@ -1068,6 +1065,7 @@ section {
 
   .breadcrumbs ol li {
     display: inline-block;
+    color: #491601;
   }
 }
 
