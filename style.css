@@ -285,68 +285,19 @@ a:hover {
   background: #fdfdf1;
 }
 
-#inicio .container {
-  padding-top: 84px;
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
-#inicio h1 {
-  margin: 0;
-  font-size: 42px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #0f394c;
-  text-transform: uppercase;
-}
-
-#inicio h2 {
-  color: #1c698c;
-  margin: 10px 0 0 0;
-  font-size: 20px;
-}
-
-#inicio .btn-get-started {
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 3px;
-  transition: 0.5s;
-  margin-top: 25px;
-  color: #fff;
-  background: #49b5e7;
-  text-transform: uppercase;
-}
-
-#inicio .btn-get-started:hover {
-  background: #76c7ed;
-}
-
-@media (max-width: 991px) {
-  #inicio {
-    height: 100vh;
-    text-align: center;
-  }
-
-  #inicio .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #inicio h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #inicio h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  #inicio .hero-img img {
-    width: 80%;
-  }
+.carousel img {
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  scroll-snap-align: start;
 }
 
 /*--- Sections General ---*/
