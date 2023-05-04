@@ -723,7 +723,11 @@ section {
 }
 
 .produtos-details img {
-  width: 100%;
+  width: 70%;
+}
+
+.espacinho{
+  margin-bottom: 30px;
 }
 
 .produtos-details .produtos-info {
@@ -817,7 +821,6 @@ section {
 .feedback .feedback-item .quote-icon-left, .feedback .feedback-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.4);
   font-size: 26px;
-
 }
 
 .feedback .feedback-item .quote-icon-left {
@@ -1071,32 +1074,39 @@ section {
 
 /*--- FOOTER ---*/
 #footer {
-  background: #fff;
+  background: #ff0202;
   padding: 0 0 30px 0;
   color: #444444;
   font-size: 14px;
-  background: #ebf7fc;
+  background-image: url(../img/lupulo.png);
 }
 
-#footer .footer-newsletter {
-  padding: 50px 0;
-  background: #f0f9fd;
+#footer .footer-newsletter { /* ESSA BAGAÇA AQUI MUDA A NESWLETTER */
+  padding: 150px 0;
+  background-image: url(../img/lupulo.png);
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 #footer .footer-newsletter h4 {
-  font-size: 24px;
+  font-size: 28px;
   margin: 0 0 20px 0;
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #0f394c;
+  color: #161616;
+  background-color: #e0c8b09f;
+}
+
+#footer .footer-newsletter p{
+  font-size: 17px;
+  color: #161616;
+  background-color: #e0c8b09f;
 }
 
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: #ffffff;
   padding: 6px 10px;
   position: relative;
   border-radius: 4px;
@@ -1119,7 +1129,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #49b5e7;
+  background: #CE3911;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1127,37 +1137,39 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #1da2e0;
+  background: #FFC927;
 }
 
-#footer .footer-top {
+#footer .footer-top {  /* ESSA BAGAÇA AQUI MUDA A PARTE DO MEIO DO FOOTER  */
   padding: 60px 0 30px 0;
-  background: #fff;
+  background-color: #e0c8b09f;
+  display: flex;
 }
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-contact h4 {
-  font-size: 22px;
+#footer .footer-top .footer-contact h3 { /* ESSA BAGAÇA AQUI MUDA 'CERVEJARIA' */
+  font-size: 25px;
   margin: 0 0 30px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
+  color: #161616;
 }
 
-#footer .footer-top .footer-contact p {
-  font-size: 14px;
+#footer .footer-top .footer-contact p { /* ESSA BAGAÇA AQUI MUDA OS DADOS DA CERVEJARIA */
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 0;
-  color: #777777;
+  color: #161616;
 }
 
-#footer .footer-top h4 {
-  font-size: 16px;
+#footer .footer-top h4 {   /* ESSA BAGAÇA AQUI MUDA AS LETRA 'LINKS/REDES...' */
+  font-size: 23px;
   font-weight: bold;
-  color: #0f394c;
+  color: #161616;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1172,16 +1184,17 @@ section {
   margin: 0;
 }
 
-#footer .footer-top .footer-links ul i {
+#footer .footer-top .footer-links ul i { /* ESSA BAGAÇA AQUI MUDA AS CORES DAS SETINHAS */
   padding-right: 2px;
-  color: #49b5e7;
+  color: #CE3911;
   font-size: 18px;
   line-height: 1;
 }
 
-#footer .footer-top .footer-links ul li {
+#footer .footer-top .footer-links ul li { /* ESSA BAGAÇA AQUI MUDA AS PALAVRAS DO LADO DAS SETINHAS */
   padding: 10px 0;
   display: flex;
+  font-size: 16px;
   align-items: center;
 }
 
@@ -1189,55 +1202,20 @@ section {
   padding-top: 0;
 }
 
-#footer .footer-top .footer-links ul a {
-  color: #777777;
+#footer .footer-top .footer-links ul a { /* ESSA BAGAÇA AQUI MUDA AS LETRAS DOS LINKS*/
+  color: #161616;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
-#footer .footer-top .footer-links ul a:hover {
+#footer .footer-top .footer-links ul a:hover { /* ESSA BAGAÇA AQUI MUDA AS LETRAS QUANDO PASSA O MOUSE */
   text-decoration: none;
-  color: #49b5e7;
+  color: #CE3911;
 }
 
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #49b5e7;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 4px;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #1da2e0;
-  color: #fff;
-  text-decoration: none;
-}
-
-#footer .copyright {
-  float: left;
-  color: #0f394c;
-}
-
-#footer .credits {
-  float: right;
-  font-size: 13px;
-  color: #0f394c;
-}
-
-@media (max-width: 575px) {
-
-  #footer .copyright,
-  #footer .credits {
-    float: none;
-    text-align: center;
-  }
+#footer .copyright {  /* ESSA BAGAÇA AQUI MUDA A LETRA DO COPYRIGHT */
+  align-self: center;
+  color: #161616;
+  background-color: #e0c8b09f;
 }
