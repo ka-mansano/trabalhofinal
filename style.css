@@ -1140,81 +1140,79 @@ section {
   background: #FFC927;
 }
 
-#footer .footer-top {  /* ESSA BAGAÇA AQUI MUDA A PARTE DO MEIO DO FOOTER  */
-  padding: 60px 0 30px 0;
-  background-color: #e0c8b09f;
+#footer .footer-meio {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px;
+  background-color: #e0c8b0c9;
 }
 
-#footer .footer-top .footer-contact {
-  margin-bottom: 30px;
+.footer-contato, .footer-links, .footer-alunos {
+  flex-basis: calc(100% / 3);
 }
 
-#footer .footer-top .footer-contact h3 { /* ESSA BAGAÇA AQUI MUDA 'CERVEJARIA' */
-  font-size: 25px;
-  margin: 0 0 30px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
-  color: #161616;
-}
-
-#footer .footer-top .footer-contact p { /* ESSA BAGAÇA AQUI MUDA OS DADOS DA CERVEJARIA */
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 0;
-  color: #161616;
-}
-
-#footer .footer-top h4 {   /* ESSA BAGAÇA AQUI MUDA AS LETRA 'LINKS/REDES...' */
-  font-size: 23px;
-  font-weight: bold;
-  color: #161616;
+#footer .footer-meio h3 {
   position: relative;
+  font-size: 25px;
+  font-weight: 350;
+  color: #161616;
   padding-bottom: 12px;
 }
 
-#footer .footer-top .footer-links {
+#footer .footer-meio p, #footer .footer-meio a, .footer-alunos ul, .footer-links ul {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161616;
+  font-weight: 300;
+}
+
+#footer .footer-meio .footer-contato {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-links ul {
+#footer .footer-meio .footer-links, #footer .footer-meio .footer-alunos {
+  margin-bottom: 30px;
+}
+
+#footer .footer-meio .footer-links ul, #footer .footer-meio .footer-alunos ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-#footer .footer-top .footer-links ul i { /* ESSA BAGAÇA AQUI MUDA AS CORES DAS SETINHAS */
+#footer .footer-meio .footer-links ul i {
   padding-right: 2px;
   color: #CE3911;
   font-size: 18px;
   line-height: 1;
 }
 
-#footer .footer-top .footer-links ul li { /* ESSA BAGAÇA AQUI MUDA AS PALAVRAS DO LADO DAS SETINHAS */
+#footer .footer-meio .footer-links ul li, #footer .footer-meio .footer-alunos ul li {
   padding: 10px 0;
   display: flex;
-  font-size: 16px;
   align-items: center;
+  font-size: 16px;
 }
 
-#footer .footer-top .footer-links ul li:first-child {
+#footer .footer-meio .footer-links ul li:first-child, #footer .footer-meio .footer-alunos ul li:first-child {
   padding-top: 0;
 }
 
-#footer .footer-top .footer-links ul a { /* ESSA BAGAÇA AQUI MUDA AS LETRAS DOS LINKS*/
+#footer .footer-meio .footer-links ul a, #footer .footer-meio .footer-alunos ul a {
   color: #161616;
-  transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  transition: 0.3s;
 }
 
-#footer .footer-top .footer-links ul a:hover { /* ESSA BAGAÇA AQUI MUDA AS LETRAS QUANDO PASSA O MOUSE */
+#footer .footer-meio .footer-links ul a:hover, #footer .footer-meio .footer-alunos ul a:hover {
   text-decoration: none;
   color: #CE3911;
 }
 
-#footer .copyright {  /* ESSA BAGAÇA AQUI MUDA A LETRA DO COPYRIGHT */
+#footer .copyright {
   align-self: center;
   color: #161616;
   background-color: #e0c8b09f;
