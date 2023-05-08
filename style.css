@@ -111,8 +111,8 @@ a:hover {
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
-  color: #CE3911;
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #ce3911;
 }
 
 .navbar .dropdown ul {
@@ -145,7 +145,7 @@ a:hover {
   font-size: 12px;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -157,7 +157,7 @@ a:hover {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -169,7 +169,7 @@ a:hover {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -213,7 +213,7 @@ a:hover {
   }
 }
 
-/*--- SEÇÃO DO INÍCIO ---*/
+/* --- SEÇÃO DO INÍCIO --- */
 #inicio {
   width: 100vw;
   height: 45vh;
@@ -223,7 +223,7 @@ a:hover {
   position: relative;
   width: 100%;
   height: 100%;
-  overflow:auto;
+  overflow: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,25 +249,25 @@ a:hover {
 }
 
 .c-prev, .c-next {
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-background-color: #CE3911;
-border: none;
-color: #ffffff;
-font-size: 35px;
-cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ce3911;
+  border: none;
+  color: #ffffff;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 .c-prev {
-left: 10px;
+  left: 10px;
 }
 
 .c-next {
-right: 10px;
+  right: 10px;
 }
 
-/*--- Sections General ---*/
+/* --- Sections General --- */
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -295,7 +295,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--- sobre nós ---*/
+/* --- sobre nós --- */
 .sobre .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
@@ -314,19 +314,19 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #FFB74E;
+  border: 2px solid #ffb74e;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .sobre .icon-box .icon i {
-  color: #FFB74E;
+  color: #ffb74e;
   font-size: 32px;
 }
 
 .sobre .icon-box:hover .icon {
-  background: #FFB74E;
-  border-color: #FFB74E;
+  background: #ffb74e;
+  border-color: #ffb74e;
 }
 
 .sobre .icon-box:hover .icon i {
