@@ -1,4 +1,4 @@
-(function() {
+(function·()·{
   "use strict";
 
   // Seleciona o container do carrossel e as imagens
@@ -73,7 +73,7 @@ startCarousel();
     let selectEl = select(el, all)
     if (selectEl) {
       if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
+        selectEl.forEach(e)·=>·e.addEventListener(type,·listener));
       } else {
         selectEl.addEventListener(type, listener)
       }
