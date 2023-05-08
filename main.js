@@ -1,6 +1,63 @@
 (function() {
   "use strict";
 
+  // Seleciona o container do carrossel e as imagens
+const container = document.querySelector('.carroselContainer');
+const items = container.querySelectorAll('.c-item');
+const itemCount = items.length;
+const nextBtn = container.querySelector('.c-next');
+const prevBtn = container.querySelector('.c-prev');
+
+// Define algumas variáveis de estado do carrossel
+let activeIndex = 0;
+let intervalId;
+
+// Adiciona a classe 'active' à imagem atual e inicia o intervalo de rolagem
+function startCarousel() {
+  items[activeIndex].classList.add('active');
+  intervalId = setInterval(() => {
+    if (activeIndex === itemCount - 1) {
+      activeIndex = 0;
+    } else {
+      activeIndex++;
+    }
+    moveCarousel();
+  }, 4000);
+}
+
+// Remove a classe 'active' de todas as imagens e adiciona-a à imagem ativa
+function moveCarousel() {
+  items.forEach(item => item.classList.remove('active'));
+  items[activeIndex].classList.add('active');
+}
+
+// Define o evento de clique para o botão de próxima imagem
+nextBtn.addEventListener('click', () => {
+  clearInterval(intervalId);
+  if (activeIndex === itemCount - 1) {
+    activeIndex = 0;
+  } else {
+    activeIndex++;
+  }
+  moveCarousel();
+  startCarousel();
+});
+
+// Define o evento de clique para o botão de imagem anterior
+prevBtn.addEventListener('click', () => {
+  clearInterval(intervalId);
+  if (activeIndex === 0) {
+    activeIndex = itemCount - 1;
+  } else {
+    activeIndex--;
+  }
+  moveCarousel();
+  startCarousel();
+});
+
+// Inicia o carrossel
+startCarousel();
+
   /** Easy selector helper function **/
   const select = (el, all = false) => {
     el = el.trim()
