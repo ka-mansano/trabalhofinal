@@ -554,10 +554,6 @@ section {
   font-weight: 600;
 }
 
-.galeria p {
-  color: #314930;
-}
-
 .produtos .produtos-wrap .produtos-info p {
   color: #0f394c;
   font-size: 14px;
@@ -757,6 +753,10 @@ section {
   overflow: hidden;
 }
 
+.galeria p {
+  color: #314930;
+}
+
 .galeria .galeria-item img {
   width: 300px;
   height: 200px;
@@ -833,7 +833,7 @@ section {
   font-weight: 600;
 }
 
-.contato .php-email-form .error-message br+br {
+.contato .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -853,7 +853,7 @@ section {
   padding: 15px;
 }
 
-.contato .php-email-form .loading:before {
+.contato .php-email-form .loading::before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -907,7 +907,7 @@ section {
 /* --- BREADCRUMBS --- */
 .breadcrumbs {
   padding: 15px 0;
-  background: #F5F5DC;
+  background: #f5f5dc;
   margin-top: 84px;
 }
 
@@ -931,24 +931,26 @@ section {
   font-size: 20px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #490147;
   content: "/";
 }
 
-@media (max-width: 768px) { /*essa parte aqui deixa o trem responsivo*/
+@media (max-width: 768px) { /* essa parte aqui deixa o trem responsivo */
   .breadcrumbs .d-flex {
     display: block !important;
   }
+  
   .breadcrumbs ol {
     display: block;
   }
+  
   .breadcrumbs ol li {
     display: inline-block;
     color: #491601;
@@ -958,7 +960,7 @@ section {
 /* --- FOOTER --- */
 #footer {
   padding: 0 0 30px 0;
-  color: #444444;
+  color: #444;
   font-size: 14px;
   background-image: url(../butterfly/assets/img/lupulo.png);
   background-size: cover;
@@ -988,7 +990,7 @@ section {
 
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #ffffff;
+  background: #fff;
   padding: 6px 10px;
   position: relative;
   border-radius: 4px;
@@ -1011,7 +1013,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #CE3911;
+  background: #ce3911;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1019,7 +1021,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #FFC927;
+  background: #ffc927;
 }
 
 #footer .footer-meio {
@@ -1066,7 +1068,7 @@ section {
 
 #footer .footer-meio .footer-links ul i {
   padding-right: 2px;
-  color: #CE3911;
+  color: #ce3911;
   font-size: 18px;
   line-height: 1;
 }
