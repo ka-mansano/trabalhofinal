@@ -1,4 +1,4 @@
-(function·()·{
+(function() {
   "use strict";
 
   // Seleciona o container do carrossel e as imagens
