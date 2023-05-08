@@ -12,15 +12,15 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #3D5240;
+  color: #3d5240;
 }
 
 a:hover {
-  color: rgb(208,212,102);
+  color: rgb(208, 212, 102);
   text-decoration: none;
 }
 
-/*--- botão de voltar pra cima ---*/
+/* --- botão de voltar pra cima ---*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -28,7 +28,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #FFB74E;
+  background: #ffb74e;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -40,7 +40,7 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #FFEE58;
+  background: #ffee58;
 }
 .back-to-top.active {
   visibility: visible;
@@ -49,7 +49,7 @@ a:hover {
 
 /** HEADER **/
 #header {
-  background:  #ffd900;
+  background: #ffd900;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
