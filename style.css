@@ -1,4 +1,4 @@
-/* --- GERAL ---*/
+/* --- GERAL --- */
 body {
   font-family: 'Work Sans', sans-serif;
   color: #3d5240;
@@ -20,7 +20,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* --- botão de voltar pra cima ---*/
+/* --- botão de voltar pra cima --- */
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -73,7 +73,7 @@ a:hover {
   max-height: 40px;
 }
 
-/*--- Navigation Menu ---*/
+/* --- Navigation Menu --- */
 /** Desktop Navigation **/
 .navbar {
   padding: 0;
@@ -447,7 +447,7 @@ section {
   }
 }
 
-/*--- Clientes ---*/
+/* --- Clientes --- */
 .clients .clients-wrap {
   border: 1px solid #eee;
 }
@@ -478,7 +478,7 @@ section {
   transition: all 0.4s ease-in-out;
 }
 
-/*--- produtos ---*/
+/* --- produtos --- */
 .produtos .produtos-item {
   margin-bottom: 30px;
 }
@@ -579,7 +579,7 @@ section {
 }
 
 .produtos .produtos-wrap .produtos-links a:hover {
-  background: rgb(208,212,102);
+  background: rgb(208, 212, 102);
 }
 
 .produtos .produtos-wrap:hover::before {
@@ -600,7 +600,7 @@ section {
   }
 }
 
-/*--- PRODUTOS - DETALHES ---*/
+/* --- PRODUTOS - DETALHES --- */
 .produtos-details {
   padding-top: 40px;
 }
@@ -609,7 +609,7 @@ section {
   width: 100%;
 }
 
-.espacinho{
+.espacinho {
   margin-bottom: 30px;
 }
 
@@ -632,7 +632,7 @@ section {
   font-size: 15px;
 }
 
-.produtos-details .produtos-info ul li+li {
+.produtos-details .produtos-info ul li + li {
   margin-top: 10px;
 }
 
@@ -650,7 +650,7 @@ section {
   padding: 0;
 }
 
-/*--- FEEDBACK ---*/
+/* --- FEEDBACK --- */
 .feedback {
   padding: 80px 0;
   background: url("../butterfly/assets/img/malte.jpg") no-repeat;
@@ -748,7 +748,7 @@ section {
   }
 }
 
-/*--- GALERIA ---*/
+/* --- GALERIA --- */
 .galeria .galeria-item {
   overflow: hidden;
 }
@@ -768,7 +768,7 @@ section {
   transform: scale(1.1);
 }
 
-/*--- CONTATO ---*/
+/* --- CONTATO --- */
 .contato .info {
   width: 100%;
   background: #fff;
@@ -904,7 +904,7 @@ section {
   }
 }
 
-/*--- BREADCRUMBS ---*/
+/* --- BREADCRUMBS --- */
 .breadcrumbs {
   padding: 15px 0;
   background: #F5F5DC;
@@ -955,7 +955,7 @@ section {
   }
 }
 
-/*--- FOOTER ---*/
+/* --- FOOTER --- */
 #footer {
   padding: 0 0 30px 0;
   color: #444444;
@@ -980,7 +980,7 @@ section {
   background-color: #e0c8b09f;
 }
 
-#footer .footer-newsletter p{
+#footer .footer-newsletter p {
   font-size: 17px;
   color: #161616;
   background-color: #e0c8b09f;
