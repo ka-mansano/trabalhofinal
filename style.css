@@ -254,7 +254,7 @@ a:hover {
   transform: translateY(-50%);
   background-color: #ce3911;
   border: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 35px;
   cursor: pointer;
 }
@@ -346,7 +346,7 @@ section {
 }
 
 .sobre .icon-box .title a:hover {
-  color: #FFB74E;
+  color: #ffb74e;
 }
 
 .sobre .icon-box .description {
