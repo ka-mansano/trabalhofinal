@@ -215,7 +215,6 @@ a:hover {
 
 /* --- SEÇÃO DO INÍCIO --- */
 #inicio {
-  width: 100vw;
   height: 80vh;
 }
 
@@ -225,17 +224,19 @@ a:hover {
   height: 100%;
   overflow: hidden;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
 .c-item {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
   object-fit: cover;
   object-position: center;
+  height: 100%;
+  width: 100%;
 }
 
 .c-item.active {
@@ -243,9 +244,8 @@ a:hover {
 }
 
 .c-img {
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
 }
 
 .c-prev, .c-next {
@@ -260,11 +260,11 @@ a:hover {
 }
 
 .c-prev {
-  left: 10px;
+  left: 1%;
 }
 
 .c-next {
-  right: 10px;
+  right: 1%;
 }
 
 /* --- Sections General --- */
