@@ -14,13 +14,15 @@
 
 <input type=hidden name="oid" value="00DDp0000016yeR">
 <input type=hidden name="retURL" value="https://www.youtube.com/watch?v=_VvUKoI1LqE&ab_channel=AprendaSalesforce">
+
+<label for="first_name">Primeiro Nome</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 <label for="last_name">Sobrenome</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
 <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 <label for="company">Empresa</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
-CNPJ:<input  id="00NDp000000IRgv" maxlength="18" name="00NDp000000IRgv" size="20" type="text" /><br>
-<label for="revenue">Receita anual</label><input  id="revenue" name="revenue" size="20" type="text" /><br>
 <label for="city">Cidade</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
 <label for="state">Estado/província</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+<label for="phone">Telefone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+CNPJ:<input  id="00NDp000000IRgv" maxlength="18" name="00NDp000000IRgv" size="20" type="text" /><br>
 <input type="submit" name="submit">
 
 </form>
