@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
   <title>Cervejaria BC</title>
 
@@ -74,14 +75,21 @@
     <section id="sobre" class="sobre">
       <div class="container">
 
+        <div class="section-title">
+          <h2>SOBRE NÓS</h2>
+        </div>
+
         <div class="row">
           <div class="col-xl-5 col-lg-6 d-flex justify-content-center video-box align-items-stretch position-relative">
             <img src="../butterfly/assets/img/gif.gif" alt="GIF animado" class="mb-4">
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-4 px-lg-4">
-            <h3>SOBRE NÓS</h3>
-            <p style="text-align: justify;">Somos a Cervejaria BG, uma cervejaria artesanal de Contagem/MG. Iniciamos nossa produção de forma independente em 2017 e já conquistamos prêmios importantes no mercado cervejeiro. Fomos premiados com a medalha de ouro pela nossa cerveja "Alpinista" e o bronze com a "Queda Livre" no Breja Awards 2021.</p>
+            <div class="icon-box">
+            <div class="icon"><i class="bi bi-house"></i></div>
+            <h4 class="title"><a href="">Quem somos</a></h4>
+            <p class="description">Somos a Cervejaria BG, uma cervejaria artesanal de Contagem/MG. Iniciamos nossa produção de forma independente em 2017 e já conquistamos prêmios importantes no mercado cervejeiro. Fomos premiados com a medalha de ouro pela nossa cerveja "Alpinista" e o bronze com a "Queda Livre" no Breja Awards 2021.</p>
+          </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bi bi-flag"></i></div>
@@ -484,22 +492,22 @@
 
           <div class="col-lg-4">
             <div class="info">
-              <div class="address">
+              <div class="ender">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Localização:</h4>
                 <p>Contagem, MG, Brasil </p>
               </div>
 
-              <div class="email">
+              <div class="ema">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
                 <p>contato@cervejariabc.com</p>
               </div>
 
-              <div class="phone">
+              <div class="telef">
                 <i class="bi bi-phone"></i>
                 <h4>Telefone:</h4>
-                <p>(XX) XXXX-XXXX</p>
+                <p>(31) 3456-7890</p>
               </div>
 
             </div>
@@ -509,26 +517,59 @@
           <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu E-mail" required>
-                </div>
+              <input id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder="Nome" required>
+            
+              <input id="last_name" maxlength="80" name="last_name" size="20" type="text" placeholder="Sobrenome" required><br>
+            
+              <input id="email" maxlength="80" name="email" size="20" type="text" placeholder="E-mail" required>
+
+              <input id="phone" maxlength="40" name="phone" size="20" type="number" placeholder="Telefone" required><br>
+            
+              <input id="company" maxlength="40" name="company" size="20" type="text" placeholder="Nome da Empresa" required>
+
+              <input id="00NDp000000IRgv" maxlength="18" name="00NDp000000IRgv" size="20" type="number" placeholder="CNPJ" required><br>
+
+              <input id="city" maxlength="40" name="city" size="20" type="text" placeholder="Cidade" required>
+            
+              <select id="state" name="state">
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+              </select><br>
+
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required><br>
+            
+              <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea><br>
+            
+              <div class="text-center">
+                <input type=hidden name="oid" value="00DDp0000016yeR">
+                <input type="hidden" name="retURL" value="https://www.google.com">
+                <button type="submit">Enviar Mensagem</button>
               </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Sua mensagem foi encaminhada. Obrigada!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
             </form>
 
           </div>
