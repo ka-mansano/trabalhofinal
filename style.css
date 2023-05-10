@@ -725,7 +725,6 @@ section {
 }
 
 .formulario {
-  width: 100%;
   padding-bottom: 8px;
   display: grid;
   grid-template-columns: 1fr 1fr; /* Define duas colunas de tamanho igual */
