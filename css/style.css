@@ -2,7 +2,7 @@
 body {
   font-family: 'Work Sans', sans-serif;
   color: #3d5240;
-  background-image: url('../butterfly/assets/img/mad.jpg');
+  background-image: url('img/mad.jpg');
   background-size: contain;
 }
 
@@ -565,7 +565,7 @@ section {
 /* --- FEEDBACK --- */
 .feedback {
   padding: 80px 0;
-  background: url("../butterfly/assets/img/malte.jpg") no-repeat;
+  background: url("img/malte.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -760,7 +760,7 @@ section {
 /* --- BREADCRUMBS --- */
 .breadcrumbs {
   padding: 15px;
-  background-image: url(../butterfly/assets/img/madera);
+  background-image: url(img/madera);
   margin-top: 84px;
 }
 
@@ -815,7 +815,7 @@ section {
   padding: 0 0 30px 0;
   color: #444;
   font-size: 14px;
-  background-image: url(../butterfly/assets/img/lupulo.png);
+  background-image: url(img/lupulo.png);
   background-size: cover;
 }
 
