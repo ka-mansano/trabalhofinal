@@ -1,0 +1,63 @@
+<template>
+  <lightning-card>
+    <div class="titulo">
+      <h2><b>Simulador de Venda</b></h2>
+    </div>
+    <div class = "calculador">
+      <div>
+        <lightning-combobox name="Cervejas" label="Cerveja" placeholder="Selecione uma cerveja" options={opcoesDeEstilos} onchange={atualizarEstilo}></lightning-combobox></div>
+      <div>
+        <lightning-input type="number" label="Quantidade" onchange={atualizarQuantidade}></lightning-input>
+      </div><br>
+      <div class="espacoBotao">
+        <lightning-button variant="success" type="submit" label="Adicionar" onclick={adicionarCerveja}></lightning-button>
+        <lightning-button variant="destructive" label="Limpar tabela" onclick={limparTabela}></lightning-button>
+      </div>
+    </div>
+    <div class="titulo">
+      <h2><b>Itens Selecionados</b></h2>
+    </div>
+    <table>
+      <thead>   
+        <tr>
+          <th>Cerveja</th>
+          <th>Quantidade</th>
+          <th>Valor da Quantidade</th>
+        </tr>
+      </thead>      
+      <tbody>
+        <template for:each={itensDaCotacao} for:item="item">
+          <tr key={item.estilo}>
+            <td>{item.estilo}</td>
+            <td>{item.quantidade}</td>
+            <td>{item.valor}</td>
+          </tr>
+        </template>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td>Total:</td>
+          <td>{valorTotalDaCotacao}</td>
+        </tr>
+      </tfoot>
+    </table>
+  </lightning-card>
+       
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
